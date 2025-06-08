@@ -22,3 +22,10 @@ public static Mock<HttpMessageHandler> SetupJsonPlaceHolder(this Mock<HttpMessag
     return handler;
 }
 ```
+
+In case you've missed a mock for HTTP call, an exception gets thrown:
+
+```
+UNHANDLED REQUEST 'GET https://jsonplaceholder.typicode.com/todos', register a mock for it
+   at Todos.IntegrationTests.HttpMockExtensions...
+```

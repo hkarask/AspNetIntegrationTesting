@@ -27,7 +27,7 @@ public static class HttpMockExtensions
     public static Mock<HttpMessageHandler> SetupJsonPlaceHolder(this Mock<HttpMessageHandler> handler)
     {
         handler
-            .SetupSendAsync(HttpMethod.Get, "https://jsonplaceholder.typicode.com/todos")
+            .SetupSendAsync(HttpMethod.Get, "https://jsonplaceholder.typicode.com/todosx")
             .ReturnsHttpResponseAsync(HttpStatusCode.OK, "ResponsePayloads/todos.json");
 
         return handler;
