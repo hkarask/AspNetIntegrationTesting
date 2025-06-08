@@ -7,6 +7,13 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/Dotnet.gitignore
 
+# Jetbrains
+.idea/
+
+# Visual Studio
+*.suo
+*.user
+
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/

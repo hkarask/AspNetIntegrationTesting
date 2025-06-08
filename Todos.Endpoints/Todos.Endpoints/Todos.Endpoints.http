@@ -1,0 +1,6 @@
+@Todos.Endpoints_HostAddress = http://localhost:5144
+
+GET {{Todos.Endpoints_HostAddress}}/todos
+Accept: application/json
+
+###
